@@ -1,0 +1,13 @@
+body {
+  font-size: medium;
+}
+.rgbBox {
+  border: 2px solid rgb(0, 0, 0);
+  width: 200px;
+  height: 200px;
+}
+
+.indicator {
+  background-color: rgb(243, 232, 230);
+  width: 2rem;
+}
