@@ -7,21 +7,27 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div class="container">
-      <p>
-        (R) Vermelho: <input type="range" id="rangeRed" min="0" max="255" />
-        <input type="text" class="indicator" id="red_Value" disabled />
-      </p>
-      <p>
-        (G) Verde: <input type="range" id="rangeGreen" min="0" max="255" />
-        <input type="text" class="indicator" id="green_Value" disabled />
-      </p>
-      <p>
-        (B) Azul: <input type="range" id="rangeBlue" min="0" max="255" />
-        <input type="text" class="indicator" id="blue_Value" disabled />
-      </p>
+    <div class="cont">
+      <h1>Escolha um valor do range !</h1>
+      <div class="all">
+        <p>
+          <span style="color: red;">(R) Vermelho:</span
+          ><input type="range" id="rangeRed" min="0" max="255" />
+          <input type="text" class="indicator" id="red_Value" disabled />
+        </p>
+        <p>
+          <span style="color: green;">(G) Verde: </span
+          ><input type="range" id="rangeGreen" min="0" max="255" />
+          <input type="text" class="indicator" id="green_Value" disabled />
+        </p>
+        <p>
+          <span style="color: blue;">(B) Azul: </span
+          ><input type="range" id="rangeBlue" min="0" max="255" />
+          <input type="text" class="indicator" id="blue_Value" disabled />
+        </p>
+        <div class="rgbBox"></div>
+      </div>
     </div>
-    <div class="rgbBox"></div>
     <script src="./js/script.js"></script>
   </body>
 </html>
